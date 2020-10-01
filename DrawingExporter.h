@@ -6,7 +6,7 @@
 #include <qlineedit.h>
 #include <qpixmap.h>
 #include <qcombobox.h>
-#include <DrawingWidget.h>
+#include <drawingwidget.h>
 
 
 #include <opencv2/opencv.hpp>

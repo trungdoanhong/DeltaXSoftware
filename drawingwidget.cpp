@@ -1,4 +1,4 @@
-#include "DrawingWidget.h"
+#include "drawingwidget.h"
 
 DrawingWidget::DrawingWidget(QWidget *parent)
 	: QLabel(parent)
