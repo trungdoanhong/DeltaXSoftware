@@ -25,7 +25,6 @@ SOURCES += main.cpp\
     BlobManager.cpp \
     CameraWidget.cpp \
     DrawingExporter.cpp \
-    DrawingWidget.cpp \
     GcodeReference.cpp \
     ImageProcesser.cpp \
     Layer.cpp \
@@ -34,6 +33,7 @@ SOURCES += main.cpp\
     TCPConnectionManager.cpp \
     TextLayer.cpp \
     codeeditor.cpp \
+    drawingwidget.cpp \
         mainwindow.cpp \
     ConnectionManager.cpp \
     DeltaVisualizer.cpp \
@@ -48,7 +48,6 @@ HEADERS  += mainwindow.h \
     ConnectionManager.h \
     DeltaVisualizer.h \
     DrawingExporter.h \
-    DrawingWidget.h \
     GcodeReference.h \
     ImageProcesser.h \
     ImageUnity.h \
@@ -60,6 +59,7 @@ HEADERS  += mainwindow.h \
     TCPConnectionManager.h \
     TextLayer.h \
     codeeditor.h \
+    drawingwidget.h \
     hsvwindow.h \
     GcodeReference.h \
 
