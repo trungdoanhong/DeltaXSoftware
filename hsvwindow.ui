@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1401</width>
+    <width>882</width>
     <height>506</height>
    </rect>
   </property>
@@ -300,7 +300,7 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>350</y>
+     <y>360</y>
      <width>511</width>
      <height>101</height>
     </rect>
@@ -357,8 +357,8 @@
   <widget class="QCheckBox" name="cbInvert">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>470</y>
+     <x>560</x>
+     <y>10</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -371,9 +371,9 @@
    <property name="geometry">
     <rect>
      <x>560</x>
-     <y>30</y>
-     <width>401</width>
-     <height>321</height>
+     <y>260</y>
+     <width>300</width>
+     <height>200</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -386,10 +386,10 @@
   <widget class="QLabel" name="lbProcessImage">
    <property name="geometry">
     <rect>
-     <x>980</x>
-     <y>30</y>
-     <width>401</width>
-     <height>321</height>
+     <x>560</x>
+     <y>40</y>
+     <width>300</width>
+     <height>200</height>
     </rect>
    </property>
    <property name="styleSheet">
