@@ -33,6 +33,7 @@ ImageProcesser::ImageProcesser(MainWindow *parent)
 	cameraWindow = new QWidget();
 	cameraWindow->setWindowTitle("Camera Window");
 	cameraWindow->setWindowFlags(Qt::WindowStaysOnTopHint);
+    cameraWindow->setGeometry(100,100,cameraWindow->width(),cameraWindow->height());
 }
 
 ImageProcesser::~ImageProcesser()
@@ -552,7 +553,7 @@ void ImageProcesser::ExpandCameraWidget(bool isExpand)
 
 void ImageProcesser::OpenCameraWindow()
 {
-	lbResultImage->setParent(cameraWindow);
+    lbResultImage->setParent(cameraWindow);
 	cameraWindow->show();
 
 	lbResultImage->ChangeSize(800, 600);
