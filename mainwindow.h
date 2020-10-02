@@ -30,7 +30,7 @@
 #include <QMessageBox>
 #include <QInputDialog>
 #include <QUrl>
-#include <qwebengineview.h>
+//#include <qwebengineview.h>
 #include <TCPConnectionManager.h>
 #include <ROS.h>
 #include <QCloseEvent>

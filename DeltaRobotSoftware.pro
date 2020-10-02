@@ -4,16 +4,16 @@
 #
 #-------------------------------------------------
 
-QT       += core gui serialport opengl webview webenginewidgets
+QT       += core gui serialport opengl network
 
 
 #INCLUDEPATH +=  F:\OpenCV\opencv-3.3.0\include
 #LIBS += -LF:\OpenCV\opencv-3.3.0\x64\vc14\lib \
 #    -lopencv_world330d
 
-INCLUDEPATH += "/usr/local/inlcude/"
+INCLUDEPATH += "/usr/local/include/opencv4"
 
-LIBS += `pkg-config --libs opencv`
+LIBS += `pkg-config --libs opencv4`
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
