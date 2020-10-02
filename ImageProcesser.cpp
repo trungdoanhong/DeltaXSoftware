@@ -553,13 +553,8 @@ void ImageProcesser::ExpandCameraWidget(bool isExpand)
 
 void ImageProcesser::OpenCameraWindow()
 {
-<<<<<<< HEAD
-    lbResultImage->setParent(cameraWindow);
-	cameraWindow->show();
-=======
 	lbResultImage->setParent(cameraWindow);
     cameraWindow->show();
->>>>>>> aa990e3c4e2271d67e6c85b4102d2b40adcf2749
 
 	lbResultImage->ChangeSize(800, 600);
 }
