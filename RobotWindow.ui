@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1210</width>
-    <height>780</height>
+    <height>817</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,6 +24,7 @@
   </property>
   <property name="font">
    <font>
+    <weight>50</weight>
     <bold>false</bold>
     <kerning>true</kerning>
    </font>
@@ -326,6 +327,7 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
       <property name="font">
        <font>
         <pointsize>10</pointsize>
+        <weight>50</weight>
         <bold>false</bold>
         <kerning>true</kerning>
        </font>
@@ -468,6 +470,7 @@ QLabel
         <widget class="QLabel" name="label_161">
          <property name="font">
           <font>
+           <weight>50</weight>
            <bold>false</bold>
           </font>
          </property>
@@ -514,6 +517,7 @@ QLabel
         <widget class="QLabel" name="label_123">
          <property name="font">
           <font>
+           <weight>50</weight>
            <bold>false</bold>
           </font>
          </property>
@@ -720,6 +724,7 @@ QToolButton::pressed
              <property name="font">
               <font>
                <pointsize>11</pointsize>
+               <weight>50</weight>
                <bold>false</bold>
               </font>
              </property>
@@ -788,7 +793,7 @@ QToolBox QScrollArea&gt;QWidget&gt;QWidget
               <enum>QTabWidget::Rounded</enum>
              </property>
              <property name="currentIndex">
-              <number>2</number>
+              <number>1</number>
              </property>
              <property name="usesScrollButtons">
               <bool>true</bool>
@@ -1483,6 +1488,7 @@ QTreeView::header {
                             <property name="font">
                              <font>
                               <pointsize>8</pointsize>
+                              <weight>50</weight>
                               <bold>false</bold>
                               <kerning>true</kerning>
                              </font>
@@ -1556,6 +1562,7 @@ QTreeView::header {
                          <property name="font">
                           <font>
                            <pointsize>8</pointsize>
+                           <weight>50</weight>
                            <bold>false</bold>
                            <kerning>true</kerning>
                           </font>
@@ -1574,12 +1581,9 @@ QTreeView::header {
                          </property>
                          <property name="html">
                           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-hr { height: 1px; border-width: 0; }
-li.unchecked::marker { content: &quot;\2610&quot;; }
-li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-style:italic; color:#00aa00;&quot;&gt;;Delta X 2 Example&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; color:#dbdbdc;&quot;&gt;N05 &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-weight:600; color:#dbdbdc;&quot;&gt;G28&lt;/span&gt;&lt;/p&gt;
@@ -1666,7 +1670,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>586</width>
+                    <width>560</width>
                     <height>2500</height>
                    </rect>
                   </property>
@@ -1813,6 +1817,7 @@ QFrame
                       <property name="font">
                        <font>
                         <pointsize>10</pointsize>
+                        <weight>75</weight>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -2513,6 +2518,7 @@ QFrame
                          <property name="font">
                           <font>
                            <pointsize>10</pointsize>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -2709,6 +2715,7 @@ QFrame
                                   <property name="font">
                                    <font>
                                     <pointsize>8</pointsize>
+                                    <weight>50</weight>
                                     <bold>false</bold>
                                    </font>
                                   </property>
@@ -3212,6 +3219,7 @@ QFrame
                          <property name="font">
                           <font>
                            <pointsize>10</pointsize>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -3486,6 +3494,7 @@ QFrame
                                   </property>
                                   <property name="font">
                                    <font>
+                                    <weight>50</weight>
                                     <italic>false</italic>
                                     <bold>false</bold>
                                     <underline>false</underline>
@@ -3530,6 +3539,7 @@ QFrame
                                   </property>
                                   <property name="font">
                                    <font>
+                                    <weight>50</weight>
                                     <italic>false</italic>
                                     <bold>false</bold>
                                     <underline>false</underline>
@@ -3650,6 +3660,7 @@ QFrame
                                   </property>
                                   <property name="font">
                                    <font>
+                                    <weight>50</weight>
                                     <italic>false</italic>
                                     <bold>false</bold>
                                     <underline>false</underline>
@@ -3982,6 +3993,7 @@ QFrame
                          <property name="font">
                           <font>
                            <pointsize>10</pointsize>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -4886,6 +4898,7 @@ QFrame
                          <property name="font">
                           <font>
                            <pointsize>10</pointsize>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -5229,8 +5242,8 @@ QFrame
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>-673</y>
-                    <width>574</width>
+                    <y>0</y>
+                    <width>557</width>
                     <height>1900</height>
                    </rect>
                   </property>
@@ -5306,6 +5319,7 @@ QGroupBox::title
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -5635,6 +5649,7 @@ QGroupBox::title
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -5908,6 +5923,7 @@ padding: 5px;</string>
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -6006,6 +6022,7 @@ padding: 5px;</string>
                              <widget class="QLabel" name="label_166">
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -6080,6 +6097,7 @@ padding: 5px;</string>
                              <widget class="QLabel" name="label_200">
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -6134,6 +6152,7 @@ padding: 5px;</string>
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -6249,6 +6268,7 @@ padding: 5px;</string>
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -6323,6 +6343,7 @@ padding: 5px;</string>
                              <widget class="QLabel" name="label_207">
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -6439,6 +6460,7 @@ padding: 5px;</string>
                              <widget class="QLabel" name="label_167">
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -6524,6 +6546,7 @@ padding: 5px;</string>
                         <property name="font">
                          <font>
                           <pointsize>10</pointsize>
+                          <weight>75</weight>
                           <bold>true</bold>
                          </font>
                         </property>
@@ -6733,7 +6756,7 @@ padding: 5px;</string>
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>574</width>
+                    <width>542</width>
                     <height>1600</height>
                    </rect>
                   </property>
@@ -6835,6 +6858,7 @@ QToolButton::hover
                           <property name="font">
                            <font>
                             <pointsize>10</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                            </font>
                           </property>
@@ -6946,6 +6970,7 @@ QLabel
                                <property name="font">
                                 <font>
                                  <pointsize>8</pointsize>
+                                 <weight>50</weight>
                                  <bold>false</bold>
                                  <kerning>true</kerning>
                                 </font>
@@ -6963,6 +6988,7 @@ QLabel
                                <property name="font">
                                 <font>
                                  <pointsize>8</pointsize>
+                                 <weight>50</weight>
                                  <bold>false</bold>
                                  <kerning>true</kerning>
                                 </font>
@@ -7072,6 +7098,7 @@ QLabel
                           <property name="font">
                            <font>
                             <pointsize>8</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                             <kerning>true</kerning>
                            </font>
@@ -7086,6 +7113,7 @@ QLabel
                           <property name="font">
                            <font>
                             <pointsize>8</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                             <kerning>true</kerning>
                            </font>
@@ -7100,6 +7128,7 @@ QLabel
                           <property name="font">
                            <font>
                             <pointsize>8</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                             <kerning>true</kerning>
                            </font>
@@ -7202,6 +7231,7 @@ QToolButton::hover
                           <property name="font">
                            <font>
                             <pointsize>10</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                            </font>
                           </property>
@@ -7252,6 +7282,7 @@ QToolButton::hover
                           <property name="font">
                            <font>
                             <pointsize>8</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                             <kerning>true</kerning>
                            </font>
@@ -7266,6 +7297,7 @@ QToolButton::hover
                           <property name="font">
                            <font>
                             <pointsize>8</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                             <kerning>true</kerning>
                            </font>
@@ -7482,6 +7514,7 @@ QLabel
                             <property name="font">
                              <font>
                               <pointsize>8</pointsize>
+                              <weight>50</weight>
                               <bold>false</bold>
                               <kerning>true</kerning>
                              </font>
@@ -7983,6 +8016,7 @@ QToolButton::hover
                           <property name="font">
                            <font>
                             <pointsize>10</pointsize>
+                            <weight>50</weight>
                             <bold>false</bold>
                            </font>
                           </property>
@@ -8075,6 +8109,7 @@ QToolButton::hover
                          <property name="font">
                           <font>
                            <pointsize>8</pointsize>
+                           <weight>50</weight>
                            <bold>false</bold>
                            <kerning>true</kerning>
                           </font>
@@ -8396,6 +8431,7 @@ QToolButton::hover
                          <property name="font">
                           <font>
                            <pointsize>8</pointsize>
+                           <weight>50</weight>
                            <bold>false</bold>
                            <kerning>true</kerning>
                           </font>
@@ -8492,8 +8528,8 @@ QToolButton::hover
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>588</width>
-                    <height>684</height>
+                    <width>556</width>
+                    <height>705</height>
                    </rect>
                   </property>
                   <property name="styleSheet">
@@ -8525,6 +8561,7 @@ QToolButton::hover
                       <widget class="QTextEdit" name="teDebug">
                        <property name="font">
                         <font>
+                         <weight>50</weight>
                          <italic>false</italic>
                          <bold>false</bold>
                          <kerning>true</kerning>
@@ -8535,12 +8572,9 @@ QToolButton::hover
                        </property>
                        <property name="html">
                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-hr { height: 1px; border-width: 0; }
-li.unchecked::marker { content: &quot;\2610&quot;; }
-li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                        </property>
                       </widget>
@@ -8658,6 +8692,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
              <property name="font">
               <font>
                <pointsize>11</pointsize>
+               <weight>50</weight>
                <bold>false</bold>
               </font>
              </property>
@@ -8709,7 +8744,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>564</width>
+                    <width>671</width>
                     <height>1500</height>
                    </rect>
                   </property>
@@ -8867,6 +8902,7 @@ QToolButton:hover
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -8960,6 +8996,7 @@ QToolButton:hover
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -9376,6 +9413,7 @@ QGroupBox
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -9603,6 +9641,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9624,6 +9663,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9645,6 +9685,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9666,6 +9707,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9687,6 +9729,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9708,6 +9751,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>75</weight>
                                 <bold>true</bold>
                                </font>
                               </property>
@@ -9925,6 +9969,7 @@ QGroupBox
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -10175,6 +10220,7 @@ QToolButton:pressed
                            </property>
                            <property name="font">
                             <font>
+                             <weight>75</weight>
                              <bold>true</bold>
                             </font>
                            </property>
@@ -10249,6 +10295,7 @@ QToolButton:pressed
                            </property>
                            <property name="font">
                             <font>
+                             <weight>75</weight>
                              <bold>true</bold>
                             </font>
                            </property>
@@ -10597,6 +10644,7 @@ QToolButton:pressed
                            </property>
                            <property name="font">
                             <font>
+                             <weight>75</weight>
                              <bold>true</bold>
                             </font>
                            </property>
@@ -10912,6 +10960,7 @@ QRadioButton:disabled {
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -11092,6 +11141,7 @@ QGroupBox
                               </property>
                               <property name="font">
                                <font>
+                                <weight>50</weight>
                                 <bold>false</bold>
                                </font>
                               </property>
@@ -11123,6 +11173,7 @@ QGroupBox
                                    <property name="font">
                                     <font>
                                      <pointsize>8</pointsize>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                      <kerning>true</kerning>
                                     </font>
@@ -11140,6 +11191,7 @@ QGroupBox
                                    <property name="font">
                                     <font>
                                      <pointsize>8</pointsize>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                      <kerning>true</kerning>
                                     </font>
@@ -11268,6 +11320,7 @@ QGroupBox
                                    <property name="font">
                                     <font>
                                      <pointsize>8</pointsize>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                      <kerning>true</kerning>
                                     </font>
@@ -11309,6 +11362,7 @@ QGroupBox
                            <property name="font">
                             <font>
                              <pointsize>9</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -11620,6 +11674,7 @@ QGroupBox
                                  </property>
                                  <property name="font">
                                   <font>
+                                   <weight>50</weight>
                                    <bold>false</bold>
                                   </font>
                                  </property>
@@ -11638,6 +11693,7 @@ QGroupBox
                                  </property>
                                  <property name="font">
                                   <font>
+                                   <weight>50</weight>
                                    <bold>false</bold>
                                   </font>
                                  </property>
@@ -11782,6 +11838,7 @@ QGroupBox
                            <property name="font">
                             <font>
                              <pointsize>10</pointsize>
+                             <weight>50</weight>
                              <bold>false</bold>
                             </font>
                            </property>
@@ -11880,6 +11937,7 @@ QGroupBox
                               <property name="font">
                                <font>
                                 <pointsize>9</pointsize>
+                                <weight>50</weight>
                                 <bold>false</bold>
                                </font>
                               </property>
@@ -11921,6 +11979,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12036,6 +12095,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12151,6 +12211,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12266,6 +12327,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12381,6 +12443,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12499,6 +12562,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12611,6 +12675,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -12723,6 +12788,7 @@ QGroupBox
                                    </property>
                                    <property name="font">
                                     <font>
+                                     <weight>50</weight>
                                      <bold>false</bold>
                                     </font>
                                    </property>
@@ -13271,6 +13337,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13330,6 +13397,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13366,6 +13434,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13393,6 +13462,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>8</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13410,6 +13480,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>8</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13439,6 +13510,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13525,6 +13597,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13577,6 +13650,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13613,6 +13687,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13665,6 +13740,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13700,6 +13776,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13732,6 +13809,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13771,6 +13849,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13803,6 +13882,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13852,6 +13932,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13918,6 +13999,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -13989,6 +14071,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -14037,6 +14120,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -14108,6 +14192,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -14140,6 +14225,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -14185,6 +14271,7 @@ QGroupBox
                     <property name="font">
                      <font>
                       <pointsize>11</pointsize>
+                      <weight>50</weight>
                       <bold>false</bold>
                       <kerning>true</kerning>
                      </font>
@@ -15315,6 +15402,7 @@ QPushButton
                       <property name="font">
                        <font>
                         <pointsize>8</pointsize>
+                        <weight>50</weight>
                         <bold>false</bold>
                         <kerning>true</kerning>
                        </font>
@@ -15385,6 +15473,7 @@ QPushButton
                       <property name="font">
                        <font>
                         <pointsize>8</pointsize>
+                        <weight>50</weight>
                         <bold>false</bold>
                         <kerning>true</kerning>
                        </font>
@@ -15452,6 +15541,7 @@ QPushButton
                       <property name="font">
                        <font>
                         <pointsize>8</pointsize>
+                        <weight>50</weight>
                         <bold>false</bold>
                         <kerning>true</kerning>
                        </font>
@@ -15469,6 +15559,7 @@ QPushButton
                       <property name="font">
                        <font>
                         <pointsize>8</pointsize>
+                        <weight>50</weight>
                         <bold>false</bold>
                         <kerning>true</kerning>
                        </font>

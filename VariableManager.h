@@ -3,7 +3,7 @@
 
 #include <QSettings>
 #include <QVariant>
-#include <unordered_map>
+#include <QHash>
 #include <mutex>
 #include <string>
 #include <QStandardItemModel>
@@ -25,8 +25,8 @@ public:
     void updateVar(const QString &key, const QVariant& value);
 
     // Get variable
-    QVariant getVariable(const QString &key, QVariant defaultValue = NULL);
-    QVariant getVar(const QString &key, QVariant defaultValue = NULL);
+    QVariant getVariable(const QString &key, QVariant defaultValue = QVariant());
+    QVariant getVar(const QString &key, QVariant defaultValue = QVariant());
 
     void removeVar(const QString &key);
     bool contains(const QString &key);
@@ -58,7 +58,7 @@ private:
     {
 
     }
-    std::map<QString, QVariant> dataMap;
+    QHash<QString, QVariant> dataMap;
     std::mutex dataMutex;
     QSettings settings;
     QList<QStandardItemModel*> itemModelList;

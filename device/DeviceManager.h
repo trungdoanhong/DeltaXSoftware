@@ -7,6 +7,8 @@
 #include <device/conveyor.h>
 #include <device/encoder.h>
 #include <QThread>
+#include <QRegularExpression>
+
 
 class DeviceManager : public QObject
 {

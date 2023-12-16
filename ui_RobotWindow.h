@@ -39,7 +39,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include <codeeditor.h>
-#include <imageviewer.h>
+#include <ImageViewer.h>
 
 QT_BEGIN_NAMESPACE
 

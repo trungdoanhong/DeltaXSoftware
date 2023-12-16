@@ -14,21 +14,15 @@ windows {
 #    include ($$PWD\3rd-party\QJoysticks\QJoysticks.pri)
 }
 
-#linux
-#{
-#    INCLUDEPATH += "/usr/local/include"
-#    INCLUDEPATH += "/"
-#    LIBS += $(shell pkg-config opencv --libs)
-#    LIBS += -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs -lopencv_videoio
-#}
+unix:!macx
+{
+    INCLUDEPATH += /usr/include/opencv4
+    LIBS += -lopencv_dnn -lopencv_gapi -lopencv_highgui -lopencv_ml -lopencv_objdetect \
+        -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_calib3d \
+        -lopencv_features2d -lopencv_flann -lopencv_videoio -lopencv_imgcodecs \
+        -lopencv_imgproc -lopencv_core
 
-#unix:!macx
-#{
-#    INCLUDEPATH += "/usr/local/include"
-##    LIBS += $(shell pkg-config opencv --libs)
-#    LIBS += -L/home/trungdoanhong/Documents/opencv-4.0/sources/build/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs -lopencv_videoio
-
-#}
+}
 
 
 

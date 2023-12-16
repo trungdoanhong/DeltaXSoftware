@@ -37,9 +37,22 @@ $$PWD\3rd-party\mvs\Includes
 LIBS += -L$$PWD\3rd-party\pylon\lib\x64
 LIBS += $$PWD\3rd-party\mvs\Libraries\win64\MvCameraControl.lib
 
-INCLUDEPATH += $$PWD\3rd-party\opencv\build\include
-LIBS += $$PWD\3rd-party\opencv\build\x64\vc15\lib\opencv_world400.lib
-LIBS += $$PWD\3rd-party\opencv\build\x64\vc15\lib\opencv_world400d.lib
+windows {
+
+    INCLUDEPATH += $$PWD\3rd-party\opencv\build\include
+    LIBS += $$PWD\3rd-party\opencv\build\x64\vc15\lib\opencv_world400.lib
+    LIBS += $$PWD\3rd-party\opencv\build\x64\vc15\lib\opencv_world400d.lib
+}
+
+unix:!macx
+{
+    INCLUDEPATH += /usr/include/opencv4
+    LIBS += -lopencv_dnn -lopencv_gapi -lopencv_highgui -lopencv_ml -lopencv_objdetect \
+        -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_calib3d \
+        -lopencv_features2d -lopencv_flann -lopencv_videoio -lopencv_imgcodecs \
+        -lopencv_imgproc -lopencv_core
+
+}
 
 
 DISTFILES += IndustrialCameraPlugin.json
